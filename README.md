@@ -26,6 +26,15 @@ The model uses a pre-trained Vision Transformer (ViT) as a backbone and fine-tun
 
 ---
 
+| Resource | Description | Link |
+|----------|-------------|------|
+| Trained Vision Transformer Model | Access to a pre-trained Vision Transformer model fine-tuned on synthetic spectrograms for chirp localization | [HuggingFace Model Hub](https://huggingface.co/nubahador/Fine_Tuned_Transformer_Model_for_Chirp_Localization/tree/main) |
+| Synthetic Spectrogram Dataset | Download link for 100,000 synthetic spectrograms with corresponding labels for chirp localization | [HuggingFace Dataset Hub](https://huggingface.co/datasets/nubahador/ChirpLoc100K___A_Synthetic_Spectrogram_Dataset_for_Chirp_Localization/tree/main) |
+| PyTorch Implementation | Repository containing the PyTorch code for fine-tuning the Vision Transformer on spectrograms | [GitHub Repository](https://github.com/nbahador/Train_Spectrogram_Transformer) |
+| Synthetic Chirp Generator | Python package for generating synthetic chirp spectrograms (images with corresponding labels) | [arXiv Paper](https://arxiv.org/pdf/2503.22713) |
+
+---
+
 ### Dataset Details
 
 #### [100,000 Labeled Chirp Spectrogram Images – Download on Hugging Face!](https://huggingface.co/datasets/nubahador/ChirpLoc100K___A_Synthetic_Spectrogram_Dataset_for_Chirp_Localization/blob/main/README.md)
