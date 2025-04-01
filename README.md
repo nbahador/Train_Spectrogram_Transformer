@@ -1,4 +1,7 @@
-## Vision Transformer (ViT) with LoRA for Spectrogram Regression
+### Vision Transformer (ViT) with LoRA for Spectrogram Regression
+
+---
+### Fine-Tuning Details
 
 | Category              | Specification                                                                                     |
 |-----------------------|---------------------------------------------------------------------------------------------------|
@@ -11,6 +14,7 @@
 | **Output**           | Quantitative predictions + optional natural language descriptions                                 |
 
 ---
+### Resource Details
 
 | Resource | Description | Link |
 |----------|-------------|------|
