@@ -65,16 +65,12 @@ Bahador, N., & Lankarany, M. (2025). Chirp localization via fine-tuned transform
 </tr>
 </table>
 
----
-
 #### Sample Spectrogram Image
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
     <img src="https://github.com/nbahador/chirp_spectrogram_generator/blob/main/Usage_Example/spectrogram_4.png" alt="Sample Generated Spectrogram" width="300" height="200" />
     <img src="https://github.com/nbahador/chirp_spectrogram_generator/blob/main/Usage_Example/Samples.jpg" alt="Sample Generated Spectrograms" width="400" height="200" />
 </div>
-
----
 
 #### Sample Label
 
