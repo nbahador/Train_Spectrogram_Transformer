@@ -1,4 +1,4 @@
-# Spectrogram Transformer
+## Chirp Spectrogram Transformer
 
 This repository contains a PyTorch implementation of a Vision Transformer (ViT) model fine-tuned for regression tasks using LoRA (Low-Rank Adaptation). The model is designed to extract the characteristics of chirp patterns within spectrogram images.
 
