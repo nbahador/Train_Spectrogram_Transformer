@@ -4,7 +4,7 @@ This repository contains a PyTorch implementation of a Vision Transformer (ViT) 
 
 ---
 
-## Overview
+### Overview
 
 The goal of this project is to predict three continuous values from spectrogram images:
 
@@ -14,9 +14,6 @@ The goal of this project is to predict three continuous values from spectrogram 
 
 The model uses a pre-trained Vision Transformer (ViT) as a backbone and fine-tunes it using LoRA for parameter-efficient adaptation. The training process includes mixed precision training, early stopping, and learning rate scheduling.
 
----
-
-## Features
 
 | Feature                      | Description                                                                 |
 |------------------------------|-----------------------------------------------------------------------------|
