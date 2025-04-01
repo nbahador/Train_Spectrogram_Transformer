@@ -1,16 +1,14 @@
-# Vision Transformer (ViT) with LoRA for Chirp Pattern Regression  
+# Vision Transformer (ViT) with LoRA for Spectrogram Regression
 
-| Key Information         | Details                                                                 |
-|-------------------------|-------------------------------------------------------------------------|
-| **Implementation**      | PyTorch                                                                |
-| **Backbone Model**      | Pre-trained Vision Transformer (ViT)                                   |
-| **Fine-Tuning Method**  | LoRA (Low-Rank Adaptation) for parameter efficiency                    |
-| **Task**                | Regression on spectrogram images                                       |
-| **Predicted Values**    | • Chirp Start Time<br>• Chirp Start Frequency<br>• Chirp End Frequency |
-| **Training Features**   | • Mixed Precision (`torch.cuda.amp`)<br>• Early Stopping<br>• Learning Rate Scheduling |
-| **Output**             | Extracts chirp pattern characteristics + optional natural language descriptions |
-
-This model efficiently fine-tunes a ViT using LoRA to predict chirp parameters from spectrograms.
+| Category               | Specification                                                                                     |
+|------------------------|---------------------------------------------------------------------------------------------------|
+| **Framework**          | PyTorch                                                                                          |
+| **Architecture**       | Pre-trained Vision Transformer (ViT-B/16)                                                        |
+| **Adaptation Method**  | LoRA (Low-Rank Adaptation) with rank=8                                                           |
+| **Task**              | Regression on time-frequency representations                                                     |
+| **Target Variables**   | 1. Chirp start time (ms)<br>2. Start frequency (kHz)<br>3. End frequency (kHz)                   |
+| **Training Protocol**  | • Automatic Mixed Precision (AMP)<br>• Early stopping (Δval_loss=0.001)<br>• Cosine LR scheduling |
+| **Output**            | Quantitative predictions + optional natural language descriptions                                 |
 
 ---
 
