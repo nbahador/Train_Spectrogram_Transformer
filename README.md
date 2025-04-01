@@ -1,14 +1,14 @@
-# Vision Transformer (ViT) with LoRA for Spectrogram Regression
+## Vision Transformer (ViT) with LoRA for Spectrogram Regression
 
-| Category               | Specification                                                                                     |
-|------------------------|---------------------------------------------------------------------------------------------------|
-| **Framework**          | PyTorch                                                                                          |
-| **Architecture**       | Pre-trained Vision Transformer (ViT)                                                        |
-| **Adaptation Method**  | LoRA (Low-Rank Adaptation)                                                           |
-| **Task**              | Regression on time-frequency representations                                                     |
-| **Target Variables**   | 1. Chirp start time (ms)<br>2. Start frequency (kHz)<br>3. End frequency (kHz)                   |
-| **Training Protocol**  | • Automatic Mixed Precision (AMP)<br>• Early stopping <br>• Learning Rate scheduling |
-| **Output**            | Quantitative predictions + optional natural language descriptions                                 |
+| Category              | Specification                                                                                     |
+|-----------------------|---------------------------------------------------------------------------------------------------|
+| **Framework**         | PyTorch                                                                                          |
+| **Architecture**      | Pre-trained Vision Transformer (ViT)                                                             |
+| **Adaptation Method** | LoRA (Low-Rank Adaptation)                                                                        |
+| **Task**             | Regression on time-frequency representations                                                      |
+| **Target Variables**  | 1. Chirp start time (ms)<br>2. Start frequency (kHz)<br>3. End frequency (kHz)                   |
+| **Training Protocol** | • Automatic Mixed Precision (AMP)<br>• Early stopping<br>• Learning Rate scheduling              |
+| **Output**           | Quantitative predictions + optional natural language descriptions                                 |
 
 ---
 
