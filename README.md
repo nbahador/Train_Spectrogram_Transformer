@@ -3,11 +3,11 @@
 | Category               | Specification                                                                                     |
 |------------------------|---------------------------------------------------------------------------------------------------|
 | **Framework**          | PyTorch                                                                                          |
-| **Architecture**       | Pre-trained Vision Transformer (ViT-B/16)                                                        |
-| **Adaptation Method**  | LoRA (Low-Rank Adaptation) with rank=8                                                           |
+| **Architecture**       | Pre-trained Vision Transformer (ViT)                                                        |
+| **Adaptation Method**  | LoRA (Low-Rank Adaptation)                                                           |
 | **Task**              | Regression on time-frequency representations                                                     |
 | **Target Variables**   | 1. Chirp start time (ms)<br>2. Start frequency (kHz)<br>3. End frequency (kHz)                   |
-| **Training Protocol**  | • Automatic Mixed Precision (AMP)<br>• Early stopping (Δval_loss=0.001)<br>• Cosine LR scheduling |
+| **Training Protocol**  | • Automatic Mixed Precision (AMP)<br>• Early stopping <br>• Learning Rate scheduling |
 | **Output**            | Quantitative predictions + optional natural language descriptions                                 |
 
 ---
