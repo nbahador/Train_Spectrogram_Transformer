@@ -1,18 +1,14 @@
-## Chirp Spectrogram Transformer
+# Vision Transformer (ViT) with LoRA for Chirp Pattern Regression
 
-This repository contains a PyTorch implementation of a Vision Transformer (ViT) model fine-tuned for regression tasks using LoRA (Low-Rank Adaptation). The model is designed to extract the characteristics of chirp patterns within spectrogram images.
+| Key Information         | Details                                                                 |
+|-------------------------|-------------------------------------------------------------------------|
+| **Implementation**      | PyTorch                                                                |
+| **Model Type**          | Vision Transformer (ViT) fine-tuned with LoRA                          |
+| **Task**                | Regression on spectrogram images                                       |
+| **Predicted Values**    | 1. Chirp Start Time<br>2. Chirp Start Frequency<br>3. Chirp End Frequency |
+| **Features**            | • Mixed precision training<br>• Early stopping<br>• Learning rate scheduling |
 
----
-
-### Overview
-
-The goal of this project is to predict three continuous values from spectrogram images:
-
-- **Chirp Start Time**
-- **Chirp Start Frequency**
-- **Chirp End Frequency**
-
-The model uses a pre-trained Vision Transformer (ViT) as a backbone and fine-tunes it using LoRA for parameter-efficient adaptation. The training process includes mixed precision training, early stopping, and learning rate scheduling.
+This model extracts characteristics of chirp patterns from spectrograms using parameter-efficient LoRA adaptation.
 
 
 | Feature                      | Description                                                                 |
