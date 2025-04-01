@@ -1,24 +1,16 @@
-# Vision Transformer (ViT) with LoRA for Chirp Pattern Regression
+# Vision Transformer (ViT) with LoRA for Chirp Pattern Regression  
 
 | Key Information         | Details                                                                 |
 |-------------------------|-------------------------------------------------------------------------|
 | **Implementation**      | PyTorch                                                                |
-| **Model Type**          | Vision Transformer (ViT) fine-tuned with LoRA                          |
+| **Backbone Model**      | Pre-trained Vision Transformer (ViT)                                   |
+| **Fine-Tuning Method**  | LoRA (Low-Rank Adaptation) for parameter efficiency                    |
 | **Task**                | Regression on spectrogram images                                       |
-| **Predicted Values**    | 1. Chirp Start Time<br>2. Chirp Start Frequency<br>3. Chirp End Frequency |
-| **Features**            | • Mixed precision training<br>• Early stopping<br>• Learning rate scheduling |
+| **Predicted Values**    | • Chirp Start Time<br>• Chirp Start Frequency<br>• Chirp End Frequency |
+| **Training Features**   | • Mixed Precision (`torch.cuda.amp`)<br>• Early Stopping<br>• Learning Rate Scheduling |
+| **Output**             | Extracts chirp pattern characteristics + optional natural language descriptions |
 
-This model extracts characteristics of chirp patterns from spectrograms using parameter-efficient LoRA adaptation.
-
-
-| Feature                      | Description                                                                 |
-|------------------------------|-----------------------------------------------------------------------------|
-| **Vision Transformer (ViT)** | Utilizes a pre-trained ViT model for feature extraction.                   |
-| **LoRA Fine-Tuning**         | Applies Low-Rank Adaptation for efficient fine-tuning of the ViT model.    |
-| **Mixed Precision Training** | Uses `torch.cuda.amp` for faster training and reduced memory usage.        |
-| **Early Stopping**           | Prevents overfitting by monitoring validation loss.                        |
-| **Learning Rate Scheduling** | Adjusts the learning rate based on validation performance.                 |
-| **Natural Language Descriptions** | Generates human-readable descriptions of predicted chirp patterns.    |
+This model efficiently fine-tunes a ViT using LoRA to predict chirp parameters from spectrograms.
 
 ---
 
