@@ -9,7 +9,7 @@
 | **Architecture**      | Pre-trained Vision Transformer (ViT)                                                             |
 | **Adaptation Method** | LoRA (Low-Rank Adaptation)                                                                        |
 | **Task**             | Regression on time-frequency representations                                                      |
-| **Target Variables**  | 1. Chirp start time (ms)<br>2. Start frequency (kHz)<br>3. End frequency (kHz)                   |
+| **Target Variables**  | 1. Chirp start time (s)<br>2. Start frequency (Hz)<br>3. End frequency (Hz)                   |
 | **Training Protocol** | • Automatic Mixed Precision (AMP)<br>• Early stopping<br>• Learning Rate scheduling              |
 | **Output**           | Quantitative predictions + optional natural language descriptions                                 |
 
