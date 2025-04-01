@@ -67,7 +67,7 @@ Bahador, N., & Lankarany, M. (2025). Chirp localization via fine-tuned transform
 
 ---
 
-### Sample Generated Spectrogram
+#### Sample Spectrogram Image
 
 <div style="display: flex; justify-content: space-between; gap: 20px;">
     <img src="https://github.com/nbahador/chirp_spectrogram_generator/blob/main/Usage_Example/spectrogram_4.png" alt="Sample Generated Spectrogram" width="300" height="200" />
@@ -76,7 +76,7 @@ Bahador, N., & Lankarany, M. (2025). Chirp localization via fine-tuned transform
 
 ---
 
-### Sample Generated Label
+#### Sample Label
 
 | Chirp Start Time (s) | Chirp Start Freq (Hz) | Chirp End Freq (Hz) | Chirp Duration (s) | Chirp Type   |
 |----------------------|-----------------------|---------------------|--------------------|--------------|
